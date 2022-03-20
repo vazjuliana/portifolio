@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+ 
 }
 
 .App-logo {
@@ -50,4 +51,8 @@
 .cor-box{
   color: #0E0F19;
   background-color: #C9D5B5
+}
+   
+body {
+  font-family: 'Open Sans', sans-serif;
 }
