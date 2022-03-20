@@ -38,6 +38,21 @@
   }
 }
 
+.cor-body-cabecalho{
+  color: #0E0F19;
+  background-color: #BA7BA1;
+}
+
+.cor-body {
+  color: #0E0F19;
+  background-color: #F6F8FA;
+}
+
+.cor-box{
+  color: #0E0F19;
+  background-color: #C9D5B5
+}
+   
 body {
   font-family: 'Open Sans', sans-serif;
 }
