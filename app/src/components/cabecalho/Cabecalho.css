@@ -1,0 +1,51 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+  }
+
+.cabecalho{
+    color: #0E0F19;
+    background-image: url("./pop-art-pattern-blue.png");
+    position: relative;
+    background-size: cover;
+    height: 100vh;
+  }
+
+  .cabecalho-menu{
+    padding: 30px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 20px;
+  }
+
+  .cabecalho-menu-item{
+    display: flex;
+    padding: 10px;
+    height: 35px;
+    justify-content: space-around;
+  }
+
+  .cabecalho-menu-item:hover{
+    font-size: 105%;
+  }
+  
+  .cabecalho-foto{
+    height: 400px;
+    width: 400px;
+    border-radius: 100%;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  .cabecalho-bloco-dois-esquerda{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    font-size: 25px;
+  }
+
+  .cabecalho-bloco-dois{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+ 
