@@ -4,10 +4,11 @@ body {
 
 .cabecalho{
     color: #0E0F19;
-    background-image: url("./pop-art-pattern-blue.png");
+    background-image: url("./pop-art-pattern-yellow-effect.png");
     position: relative;
     background-size: cover;
     height: 100vh;
+    width: 100vw;
   }
 
   .cabecalho-menu{
@@ -48,4 +49,55 @@ body {
     justify-content: space-evenly;
   }
   
- 
+  @media(min-width: 500px) and (max-width:600px){
+    
+    
+    .cabecalho-foto{
+      height: 300px;
+      width: 300px;
+    }
+
+    .cabecalho-bloco-dois-esquerda{
+      font-size: 15px;
+    }
+  
+    .cabecalho-bloco-dois{
+      display: flex;
+      flex-direction: column-reverse;
+      position:absolute;
+      top:20%;
+      left:23%;
+    }
+  }
+
+  @media(min-width:320px) and (max-width:450px){
+    
+    .cabecalho-foto{
+      height: 250px;
+      width: 250px;
+      
+    }
+
+    .cabecalho-bloco-dois-esquerda{
+      font-size: 15px;
+      margin-top: 50px;
+      text-align: center;
+    }
+  
+    .cabecalho-bloco-dois{
+      display: flex;
+      flex-direction: column-reverse;
+      position:absolute;
+      width: 100%;
+	    justify-content: center;
+	    align-items: center;
+      margin-top: 80px;
+    }
+
+    .cabecalho-menu{
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+  }
+}

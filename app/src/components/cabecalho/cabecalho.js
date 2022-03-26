@@ -18,13 +18,13 @@ export class Cabecalho extends Component {
           </nav>
           <div class="cabecalho-bloco-dois">
             <div class="cabecalho-bloco-dois-esquerda">
-              <h1>Juliana Vaz da Silva</h1>
-              <h2>Desenvolvedora Front-End</h2>
+              <h1 class="cabecalho-h1">Juliana Vaz da Silva</h1>
+              <h2 class="cabecalho-h2">Desenvolvedora Front-End</h2>
+              
             </div>
               <img class="cabecalho-foto" src="imagens/minhaImagem.jpg"/>
           </div>
       </header>
-           
         )
     }
 }
