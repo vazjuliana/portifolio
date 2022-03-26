@@ -5,7 +5,7 @@ import {Cabecalho} from './components/cabecalho/cabecalho'
 
 ReactDOM.render(
   <React.StrictMode>
-    <Cabecalho />
+    <Cabecalho/>
   </React.StrictMode>,
   document.getElementById('root')
 );
