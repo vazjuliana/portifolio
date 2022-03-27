@@ -19,10 +19,7 @@ export class Cabecalho extends Component {
           </nav>
           <div class="cabecalho-bloco-dois">
             <div class="cabecalho-bloco-dois-esquerda">
-          
-              <h1 class="cabecalho-h1">Juliana Vaz da Silva</h1>
-              <h2 class="cabecalho-h2">Desenvolvedora Front-End</h2>
-              
+              <img class="cabecalho-nuvem" src="imagens/balao1.png" alt="balao_pop_art"/>
             </div>
               <img class="cabecalho-foto" src="imagens/minhaImagem.jpg" alt="foto"/>
           </div>
