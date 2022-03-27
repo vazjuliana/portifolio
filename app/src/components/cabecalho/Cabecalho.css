@@ -1,0 +1,118 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+  }
+
+.cabecalho{
+
+    color: #0E0F19;
+    background-image: url("./pop-art-pattern-yellow1.png");
+    position: relative;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+  }
+
+  .cabecalho-menu{
+    padding: 30px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 20px;
+  }
+
+  .cabecalho-menu-item{
+    text-shadow: black 0.1em 0.1em 0.2em;
+    display: flex;
+    padding: 10px;
+    height: 35px;
+    justify-content: space-around;
+
+  }
+
+  .cabecalho-menu-item:hover{
+    font-size: 105%;
+    cursor: pointer;
+  }
+  
+/*primeira parte do cabeçalho acaba aqui*/
+
+  .cabecalho-bloco-dois{
+      display: flex;
+      justify-content: space-evenly;
+  }
+
+  .cabecalho-bloco-dois-esquerda{
+    display: flex;
+    
+  }
+
+  .cabecalho-foto{
+    height: 400px;
+    width: 400px;
+    border-radius: 100%;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  .cabecalho-nuvem{
+    width: 30em;
+    height: 30em;
+  }
+  
+  @media(min-width: 500px) and (max-width:600px){
+  
+    .cabecalho-foto{
+      display: flex;
+      height: 185px;
+      width: 230px;
+      justify-content: center;
+    }
+  
+    .cabecalho-nuvem{
+      display: flex;
+      justify-content: center;
+      width: 20em;
+      height: 20em;
+    }
+
+    .cabecalho-bloco-dois{
+      flex-wrap:wrap-reverse;
+
+    }
+  }
+  @media(min-width:320px) and (max-width:500px){
+    
+    .cabecalho-menu{
+      padding: 20px;
+      display: flex;
+      justify-content: flex-end;
+      font-size: 15px;
+    } 
+
+    .cabecalho{
+      color: #0E0F19;
+      background-image: url("./pop-art-pattern-yellow1.png");
+      position: relative;
+      background-size: cover;
+      height: 100vh;
+      width: 100vw;
+    }
+
+    .cabecalho-foto{
+      display: flex;
+      height: 250px;
+      width: 250px;
+      justify-content: center;
+    }
+
+    .cabecalho-nuvem{
+      display: flex;
+      justify-content: center;
+      width: 20em;
+      height: 20em;
+      }
+
+    .cabecalho-bloco-dois{
+      flex-wrap:wrap-reverse;
+
+    } 
+  }
